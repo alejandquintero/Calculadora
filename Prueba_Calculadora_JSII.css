@@ -1,11 +1,16 @@
 body {background-color:darkgrey; 
-      padding: 0;
+      margin: 0;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 10%;
+      width: 100vw;
+      height: 100vh;
+
       }
-             
+#calculadora{
+      padding-left: 50px;
+}
+
 
 #resultado {float: left;
             text-align: right;
@@ -18,6 +23,7 @@ body {background-color:darkgrey;
             color:  white;
             padding-right: 43px;
             padding-top: 10px;
+
    }
 
 
